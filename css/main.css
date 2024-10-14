@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    src: url("fonts/raleway/raleway-800.woff2") format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/rubik/rubik-400.woff2") format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/rubik/rubik-700.woff2") format("woff2");
+    font-display: swap;
+  }
+  body{
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400px;
+  }
+  /* Pages */
+  .main-header{
+    background-color:#FFE17F;
+    color: #000000;
+    background-image:url("../img/header-img/bg-decor-01.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 110%;
+  }
+  .navigation-user .catalog-search{
+    font-size: 16px;
+    line-height: 20px;
+    width: 360px;
+    height: 40px;
+  }
+  .navigation-user .search-button{
+    font-size: 16px;
+    line-height: 20px;
+    width: 160px;
+    height: 40px;
+  }
+.navigation-user .navigation-link{
+    color: #000000;
+    text-decoration: none;
+}
+.navigation-site .navigation-link{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+
+}
