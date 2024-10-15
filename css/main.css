@@ -1,60 +1,103 @@
 @font-face {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 800;
-    src: url("fonts/raleway/raleway-800.woff2") format("woff2");
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 400;
-    src: url("fonts/rubik/rubik-400.woff2") format("woff2");
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 700;
-    src: url("fonts/rubik/rubik-700.woff2") format("woff2");
-    font-display: swap;
-  }
-  body{
-    font-family: "Rubik", sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400px;
-  }
-  /* Pages */
-  .main-header{
-    background-color:#FFE17F;
-    color: #000000;
-    background-image:url("../img/header-img/bg-decor-01.svg");
-    background-repeat: no-repeat;
-    background-position: 90% 110%;
-  }
-  .navigation-user .catalog-search{
-    font-size: 16px;
-    line-height: 20px;
-    width: 360px;
-    height: 40px;
-  }
-  .navigation-user .search-button{
-    font-size: 16px;
-    line-height: 20px;
-    width: 160px;
-    height: 40px;
-  }
-.navigation-user .navigation-link{
-    color: #000000;
-    text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
 }
-.navigation-site .navigation-link{
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 22px;
-    color: #000000;
-    text-decoration: none;
 
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+/* header */
+.main-header {
+  background-color: #FFE17F;
+  color: #000000;
+  background-image: url("../img/header-img/bg-decor-01.svg");
+  background-repeat: no-repeat;
+  background-position: 1001px 219px;
+}
+
+.navigation-user .catalog-search {
+  font-size: 16px;
+  line-height: 20px;
+  width: 360px;
+  height: 40px;
+
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50px 0px 0px 50px;
+  background: rgba(255, 255, 255, 0);
+}
+
+.navigation-user .search-button {
+  font-size: 16px;
+  line-height: 20px;
+  width: 160px;
+  height: 40px;
+
+}
+
+.navigation-user .navigation-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-site .navigation-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+}
+
+/* main-content */
+.main-title {
+  font-family: "Raleway";
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+}
+
+.button{
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #FFE17F;
+  text-decoration: none;
+  color: #000000;
+}
+
+.characteristics{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 30px;
 }
