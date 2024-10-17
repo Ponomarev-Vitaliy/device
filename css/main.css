@@ -33,9 +33,6 @@ body {
 .main-header {
   background-color: #FFE17F;
   color: #000000;
-  background-image: url("../img/header-img/bg-decor-01.svg");
-  background-repeat: no-repeat;
-  background-position: 1001px 219px;
 }
 
 .navigation-user .catalog-search {
@@ -84,14 +81,14 @@ body {
 }
 
 .button{
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 4px;
   text-align: center;
   text-transform: uppercase;
-  background: #FFE17F;
+  background-color: #FFE17F;
   text-decoration: none;
   color: #000000;
 }
@@ -100,4 +97,26 @@ body {
   font-size: 36px;
   font-weight: 400;
   line-height: 30px;
+}
+.category-item{
+  background-color: #FFE17F;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+}
+.category-link{
+
+}
+.vr{
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/main-img/catalog-links-img/vr-glasses.svg);
+  background-repeat: no-repeat;
+}
+.selfie-monopod{
+  background-image: url(../img/main-img/catalog-links-img/selfie-monopods.svg);
+  background-repeat: no-repeat;
 }
