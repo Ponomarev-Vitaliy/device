@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(68, 68, 68);
+}
+
+.yellow-wrapper {
+    background-color: rgba(255, 225, 127, 1);
+}
+
+.navigation {
+    color: rgb(0, 0, 0);
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.search {
+    width: 550px;
+}
+
+.search-input {
+    margin: 0px;
+    width: 350px;
+    height: 34px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px 0px 0px 50px;
+    background-color: rgba(255, 225, 127, 1);
+}
+
+.search-button {
+    padding: 0px;
+    margin: 0px;
+    width: 158px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgba(255, 225, 127, 1);
+}
+
+.navigation-top {
+    display: flex;
+}
+
+.personal-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 340px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.personal-navigation .navigation-link {
+    color: rgb(0, 0, 0);
+    font-family: "Rubik";
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.general-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.general-navigation .navigation-link {
+    font-family: "Raleway";
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 20%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* main */
+.recommended-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider {
+    width: 560px;
+}
+
+.slider-disc {
+    width: 560px;
+}
+
+.main-title {
+    font-family: "Raleway";
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+    padding: 0;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.slider-pagination-interface {
+    display: flex;
+}
+
+.button {
+    height: 20px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 225, 127);
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.slider-pagination {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+.slider-pagination-button {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    margin-right: 20px;
+    background: rgb(255, 255, 255);
+}
+.product-characteristics{
+    border-spacing: 20px 0;
+}
+.characteristics{
+    color: rgb(0, 0, 0);
+    font-family: "Rubik";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.characteristics-value{
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.catalog-navigation-item{
+    width: 160px;
+}
+.category-image{
+    background: rgb(255, 225, 127);
+    width: 160px;
+    height: 160px;
+  }
+  /* catalog-icon*/
+  .vr{
+    background-image: url(../img/main-img/catalog-links-img/vr-glasses.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .selfie-monopod{
+    background-image: url(../img/main-img/catalog-links-img/selfie-monopods.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+  }
+  .action-camera{
+    background-image: url(../img/main-img/catalog-links-img/action-camera.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .fitness-watch{
+    background-image: url(../img/main-img/catalog-links-img/fitness-watch.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .smart-watches{
+    background-image: url(../img/main-img/catalog-links-img/smart-watches.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .quadrocopters{
+    background-image: url(../img/main-img/catalog-links-img/quadrocopters.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .catalog-navigation-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navigathion-category-title{
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-align: left;
+  }
+  .service{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(240, 240, 240);
+  }
+.service-list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 287px;
+}
+.service-disc{
+    width: 448px;
+}
+.service-icon{
+    width: 136px;
+    height: 164px;
+    background-image: url(../img/main-img/service-icon.svg);
+    background-repeat: no-repeat;
+}
+.decor-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    background: rgb(240, 240, 240);
+}
+.icon-delivery{
+    width: 125px;
+    height: 100px;
+    background: rgb(255, 225, 127);
+    background-image: url(../img/main-img/delivery-car-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.decor-header-title{
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about-company-column{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe{
+    background: rgb(240, 240, 240);
+}
+.about-us{
+    width: 520px;
+}
+.contacts{
+    width: 532px;
+}
+.two-column-subscribe{
+    display: flex;
+    justify-content: space-between;
+}
+.first-column-subscribe{
+    width: 557px;
+}
+.second-column-subscribe{
+    width: 560px;
+}
+.footer{
+    color: rgb(255, 255, 255);
+    background: rgb(68, 68, 68);
+}
+.footer-address{
+    width: 234px;
+}
+.footer .contacts-address{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer-links .contacts-link{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer-contact-list .contacts-phone{
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.footer{
+    display: flex;
+}
+section{
+    margin-bottom: 40px;
+}
